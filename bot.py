@@ -1,5 +1,7 @@
-git add .
-git commit -m "Initial commit"
+import os
+from telegram import Bot
+
+bot = Bot(token=os.environ.get('6094672033:AAGFGz1P2NtYz-lBlutjDXmOo5GEnu2Zyds'))
 import logging
 from telegram.ext import Updater, CommandHandler
 from telegram import Update
